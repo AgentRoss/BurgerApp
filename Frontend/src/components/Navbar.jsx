@@ -74,7 +74,7 @@ const Navbar = () => {
                 {navbar}
               </ul>
             </div>
-            <a className="text-2xl font-bold cursor-pointer">Burger</a>
+            <a className="text-2xl font-bold cursor-pointer"><i class="fa-solid fa-burger"></i> Burger</a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">
