@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name":"Classic Burger",
+    "title":"A delicious classic beef burger.",
+    "price":99,
+    "Category": "beef",
+    "image": "https://images.pexels.com/photos/3616956/pexels-photo-3616956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+  },
+  {
+    "id": 2,
+    "name":"Cheese Burger",
+    "title":"Juicy burger with melted cheese.",
+    "price":89,
+    "Category": "Cheese",
+    "image": "https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+  },
+  {
+    "id": 3,
+    "name":"Veggie Burger",
+    "title":"A plant-based patty with fresh veggies and avocado.",
+    "price":149,
+    "Category": "Veggie",
+    "image": "https://images.pexels.com/photos/11812584/pexels-photo-11812584.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+  },
+  {
+    "id": 4,
+    "name":"Spicy Burger",
+    "title":"Kick it up a notch with jalapeños and spicy mayo.",
+    "price":159,
+    "Category": "Spicy",
+    "image": "https://images.pexels.com/photos/15010311/pexels-photo-15010311/free-photo-of-delicious-burger-on-table-in-restaurant.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+  },
+  {
+    "id": 5,
+    "name":"Mushroom Burger",
+    "title":"Topped with sautéed mushrooms and Swiss cheese.",
+    "price":169,
+    "Category": "Mushroom",
+    "image": "https://images.pexels.com/photos/5908283/pexels-photo-5908283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+
+  },
+  {
+    "id": 6,
+    "name":"Double Cheeseburger",
+    "title":"Two juicy patties with double the cheese.",
+    "price":119,
+    "Category": "Cheese",
+    "image": "https://images.pexels.com/photos/2282532/pexels-photo-2282532.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+    "id": 7,
+    "name":"Avocado Burger",
+    "title":"Creamy avocado slices with a zesty lime mayo.",
+    "price":179,
+    "Category": "Avocado",
+    "image": "https://images.pexels.com/photos/28872601/pexels-photo-28872601/free-photo-of-delicious-pulled-pork-cheeseburger-with-guacamole.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+    "id": 8,
+    "name":"Chipotle Burger",
+    "title":"Spicy chipotle sauce and pepper jack cheese.",
+    "price":159,
+    "Category": "chipotle",
+    "image": "https://images.pexels.com/photos/10701945/pexels-photo-10701945.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+    "id": 9,
+    "name":"Egg Burger",
+    "title":"Topped with a fried egg and crispy bacon.",
+    "price":129,
+    "Category": "egg",
+    "image": "https://images.pexels.com/photos/2293534/pexels-photo-2293534.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+    "id": 10,
+    "name":"Truffle Burger",
+    "title":"Luxurious truffle aioli with caramelized onions.",
+    "price":199,
+    "Category": "truffle",
+    "image": "https://images.pexels.com/photos/750073/pexels-photo-750073.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  },
+  {
+    "id": 11,
+    "name":"BBQ Burger",
+    "title":"Smothered in smoky BBQ sauce with grilled onions.",
+    "price":159,
+    "Category": "bbq",
+    "image": "https://images.pexels.com/photos/3738730/pexels-photo-3738730.jpeg?auto=compress&cs=tinysrgb&w=600"
+
+  }
+]
