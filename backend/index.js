@@ -2,13 +2,14 @@ import express from "express";
 import dotenv from 'dotenv';
 import mongoose, { connect } from "mongoose";
 import cors from 'cors';
+import burgerRoute from "./Route/burger.route.js"
+import userRoute from "./Route/user.route.js"
 
 const app = express()
 app.use(cors());
 app.use(express.json())
 
-import burgerRoute from "./Route/burger.route.js"
-import userRoute from "./Route/user.route.js"
+
 
 dotenv.config();
 
@@ -27,7 +28,7 @@ try {
 }
 
 //defining routes
-app.use("/burger", burgerRoute)
+app.use("/api/burger", burgerRoute)
 
 app.use("/user", userRoute)
 

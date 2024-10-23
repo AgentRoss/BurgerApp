@@ -10,7 +10,7 @@ const Menu = () => {
   useEffect(() => {
     const getBurger = async()=> {
       try {
-        const res = await axios.get("http://localhost:4001/burger")
+        const res = await axios.get("/api/burger")
         console.log(res.data);
         setBurger(res.data)
       } catch (error) {
