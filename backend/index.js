@@ -30,7 +30,7 @@ try {
 //defining routes
 app.use("/api/burger", burgerRoute)
 
-app.use("/user", userRoute)
+app.use("/api/user", userRoute)
 
 
 app.listen(process.env.PORT, () => {
