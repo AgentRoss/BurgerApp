@@ -1,5 +1,5 @@
 import User from "../models/user.model.js";
-import bcrypt from "bcrypt"
+import bcrypyjs from "bcryptjs";
 
 export const Signup = async(req, res) => {
 try {
@@ -34,7 +34,7 @@ export const Login = async(req, res)=> {
   try {
     const {email, password} = req.body;
     const user = await User.findOne({email})
-    const isMatch = await bcrypt.compare(password, user.password)
+    const isMatch = await bcrypyjs.compare(password, user.password)
     if(!user || !isMatch){
       return res.status(400).json({message: "Invalid username or password"})
 
