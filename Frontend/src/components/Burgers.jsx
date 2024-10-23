@@ -1,15 +1,29 @@
 import React from 'react';
-import list from '../../public/list.json';
-
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from './Cards';
 
 const Burgers = () => {
-  // Assuming 'Category' is a valid field in your list data
-  const filterData = list.filter((data) => data.Category);
-  console.log(filterData);
+
+  const [burger, setBurger] = useState([])
+  useEffect(() => {
+    const getBurger = async()=> {
+      try {
+        const res = await axios.get("http://localhost:4001/burger")
+        console.log(res.data);
+        const data = (res.data.filter((data) => data.Category));
+        setBurger(data)
+      } catch (error) {
+        console.log(error)
+      }
+    }
+    getBurger();
+  },[])
+
+  
 
   var settings = {
     dots: true,
@@ -56,7 +70,7 @@ const Burgers = () => {
      
         <div>
           <Slider {...settings}>
-            {filterData.map((item) => (
+            {burger.map((item) => (
               <Cards item={item} key={item.id} />  
             ))}
           </Slider>
