@@ -18,8 +18,7 @@ const Signup = () => {
       email: data.email,
       password: data.password
     }
-   
-    await axios.post("https://your-vercel-app-url.vercel.app/api/user/signup", userInfo)
+   await axios.post("/user/signup", userInfo)
    .then((res)=> {
     console.log(res.data)
     if(res.data){
